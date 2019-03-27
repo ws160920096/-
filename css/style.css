@@ -1,0 +1,29 @@
+#map{
+	height:450px;
+	width:500px;
+    background-color: Bisque;
+	 position:absolute;
+            left:50%;    /* 定位父级的50% */
+            top:50%;
+            transform: translate(-50%,-50%); /*自己的50% */
+
+}
+#btn1{
+/*	background-image: url("http://yx.h5uc.com/tanchishedazuozhan/images/restartbtn-sheet0.png")  no-repeat;*/
+    position:absolute;
+	width: 100px;
+	height: 30px;
+	top: 45%;
+	left:20%;   
+
+
+}
+#btn2{
+/*	background-image: url("http://yx.h5uc.com/tanchishedazuozhan/images/exit-sheet0.png");*/
+	position:absolute;
+	width: 100px;
+	height: 30px;
+	left:20%;     
+	top: 55%
+    
+}

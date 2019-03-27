@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+var a=123;
+function fn() {
+	console.log(this.a);
+
+	// body...
+}
+fn();
+var o={a:'abd'};
+
+var fn1=fn.bind(o);
+fn1();
+	</script>
+
+</body>
+</html>
